@@ -1,6 +1,32 @@
-RestApi
+What is a RESTful API?
++ plus difference between the two examples that are provided
 
-This RestApi is using "resources >>> application.properties" to make a connection with the database
+Every RESTful API consist of three parts:
+Model, Controller and Service
+
+1. Model
+Represents the data that is exchanged between the service (example: database) and the user.
+Also, it gives a structure and the behavior of the data.
+
+2. Controller
+Handles the user requests and process them.
+It is responsible for receiving the requests, extracting the necessary data,
+invoking the appropriate business logic, and preparing the response to send back to the client.
+(Handles: GET, POST, PUT, DELETE)
+
+3. Service
+Contains the business logic.
+The service layer is responsible for implementing the application-specific
+rules and logic. It helps to decouple the controller from the details of
+data access and manipulation.
+
+....................................................................................................................
+
+Difference between the RestApi_JPA and RestApi_JDBC
+
+RestApi_JPA
+
+This RestApi_JPA is using "resources >>> application.properties" to make a connection with the database
 
 Advantage:
 - convention-over-configuration principle

@@ -1,4 +1,4 @@
-package com.example.spring.RESTfulAPI_DB.RestApi;
+package com.example.spring.RESTfulAPI_DB.RestApi_JPA;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

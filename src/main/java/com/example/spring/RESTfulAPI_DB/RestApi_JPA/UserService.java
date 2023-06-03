@@ -1,4 +1,4 @@
-package com.example.spring.RESTfulAPI_DB.RestApi;
+package com.example.spring.RESTfulAPI_DB.RestApi_JPA;
 
 import org.springframework.stereotype.Service;
 
@@ -27,7 +27,6 @@ public class UserService {
     public UserModel createUser(UserModel user) {
         return iUserRepository.save(user);
     }
-
 
 
     public UserModel updateUser(Integer id, UserModel updatedUser) {
